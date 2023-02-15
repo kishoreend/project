@@ -1,0 +1,311 @@
+$primary-color: #1d3557;
+$primary-red: #d4484c;
+$primary-teal: #467c9d;
+$primary-gray: #e8ebef;
+$border-gray: #c9d0d8;
+$light-gray: #f9f9f9;
+
+// Check box
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form-check {
+  display: block;
+  margin-bottom: 2px;
+  padding: 0;
+}
+
+.form-check input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-check label {
+  position: relative;
+  cursor: pointer;
+}
+
+.form-check label:before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid $border-gray;
+  //box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 7px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.form-check input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  width: 6px;
+  height: 11px;
+  border: solid $primary-color;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.menuHeight {
+  height: 200px;
+  overflow-y: auto;
+}
+.shadow {
+  box-shadow: 1px 1px;
+}
+.foodstallpic {
+  height: 120px;
+  width: 150px;
+  border-radius: 3px;
+}
+.noborder {
+  border: none !important;
+  td {
+    padding: 5px !important;
+    word-wrap: none;
+  }
+}
+.teal_text_bold {
+  font-weight: 900;
+  color: $primary-teal;
+}
+.quantitybtnplus {
+  font-weight: 900;
+  color: $primary-teal;
+  background-color: white;
+  //border-radius: 5px, 0px, 5px, 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 1px $primary-teal solid;
+}
+.quantitybtnminus {
+  font-weight: 900;
+  color: $primary-teal;
+  background-color: white;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px $primary-teal solid;
+}
+.borderteal {
+  border-color: $primary-teal;
+  border: none;
+}
+.t4fbutton-gray2 {
+  color: #707070 !important;
+  background-color: #f6f6f6 !important;
+  border: #c8c8c8 solid 1px !important;
+  padding: 2px 20px 2px 20px;
+  border-radius: 3px !important;
+  text-decoration: none;
+  width: auto;
+  &:hover {
+    background-color: #e7e5e5b4 !important;
+  }
+}
+.text-head-teal-bold {
+  color: #467c9d;
+  font-weight: 800;
+}
+
+.tooltiptext {
+  display: none;
+}
+.tooltipt4f {
+  cursor: pointer;
+  &:hover {
+    .tooltiptext {
+      display: none;
+    }
+  }
+}
+.fullborder {
+  border: 1px $border-gray solid;
+  border-radius: 3px;
+}
+.videoDragDiv {
+  bottom: 0;
+  right: 0;
+  width: 322px;
+}
+.zindex-10 {
+  z-index: 10;
+}
+.floatingmenu {
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  width: 300px;
+  // height: 450px;
+  height: auto;
+  background-color: white !important;
+  border-radius: 3px;
+  z-index: 20;
+  overflow: auto;
+}
+
+.floatingmenudiv {
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  z-index: 20;
+}
+.close {
+  background: url(../../assets/icons/close.png) no-repeat;
+  background-size: 100%;
+  color: transparent !important;
+  border: none !important;
+  border-radius: 10px !important;
+  height: 17px !important;
+  width: 17px !important;
+  padding-bottom: 4px !important;
+}
+.w-20 {
+  width: 20%;
+}
+.w-10 {
+  width: 10%;
+}
+.modalAlert {
+  //width: fit-content !important;
+  margin-bottom: 1px !important;
+  text-align: center !important;
+}
+
+.Veg {
+  right: 4px;
+  margin-top: 4px;
+  height: 11px;
+  width: 11px;
+  border-radius: 2px;
+  border: #039d10 solid 1px;
+  .Vegdot {
+    height: 7px;
+    width: 7px;
+    margin: 1px;
+    border-radius: 50%;
+    background-color: #039d10;
+  }
+}
+.NonVeg {
+  right: 4px;
+  margin-top: 4px;
+  height: 11px;
+  width: 11px;
+  border-radius: 2px;
+  border: #e63946 solid 1px;
+  .NonVegdot {
+    height: 7px;
+    width: 7px;
+    margin: 1px;
+    border-radius: 50%;
+    background-color: #e63946;
+  }
+}
+.imgQR {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: $primary-color 1px solid;
+}
+#offerfoodItem .modal-content {
+  width: auto !important;
+  height: 90% !important;
+}
+.parent {
+  //height: 100%;
+  width: 100%;
+  //display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.child {
+  max-width: 700px;
+}
+.lightgray {
+  background-color: $light-gray;
+}
+.btnRoundTeal {
+  background-color: $primary-teal;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+.bg-teal {
+  background-color: $primary-teal;
+}
+.someClass {
+  background-color: #039d10;
+}
+.bg-red {
+  background-color: #f9f9f9;
+}
+.heightfull {
+  min-height: 625px;
+}
+.borderbottomdotted {
+  border-bottom: dotted 1px $border-gray;
+}
+.boderdotteddark {
+  border: dotted 2px $primary-color;
+}
+.orderotpdrp {
+  border: none;
+  background-color: #a8dadc;
+  color: $primary-color;
+  border-radius: 2px;
+  padding: 1px;
+}
+.primary-color {
+  background-color: $primary-color;
+}
+.orderstatusbtn {
+  min-width: 80px;
+}
+.w-50px {
+  width: 30px;
+}
+.zindex {
+  z-index: 9 !important;
+}
+
+#merchant-faq,
+#admin-merchant-faq,
+#admin-customer-faq {
+  /* Custom style */
+  .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(0.7) !important;
+    color: black !important;
+    background-color: none !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+    color: black !important;
+    background-color: none !important;
+    padding: 0.5rem;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  }
+  .accordion-button {
+    color: black !important;
+    background-color: white !important;
+    padding: 0.5rem;
+  }
+}

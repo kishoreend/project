@@ -1,0 +1,86 @@
+{
+  "merchanturl": {
+    "SignupPage": "/merchant/signup",
+    "OTPVerificationPage": "/merchant/otp-verification",
+    "CreateLoginPage": "/merchant/login",
+    "ForgetPasswordPage": "/merchant/forgetpassword",
+    "CreateNewPasswordPage": "/merchant/createPassword",
+    "ChangePasswordPage": "/merchant/change-password",
+    "Merchant_DashboardPage": "/merchant/dashboard",
+    "FoodMenu": "/merchant/food-menu",
+    "MyProfile": "/merchant/my-profile",
+    "OrderHistory": "/merchant/order-history",
+    "Orders": "/merchant/orders",
+    "Merchant_Roles": "/merchant/roles",
+    "Subscription": "/merchant/subscription",
+    "SubscriptionDes": "/merchant/subscriptiondec",
+    "CustomerGrievance": "/merchant/customer-grievance",
+    "Notifications": "/merchant/notifications",
+    "Merchant_FAQ": "/merchant/merchant-faq",
+    "Feedback": "/merchant/feedback",
+    "TermsAndConditions": "/merchant/merchant-terms-and-conditions",
+    "ContactUs": "/merchant/merchant-contact-us",
+    "Settings": "/merchant/settings"
+  },
+  "adminurl": {
+    "Admin_OTPVerificationPage": "/admin/otp-verification",
+    "Admin_CreateLoginPage": "/admin/login",
+    "Admin_ForgetPasswordPage": "/admin/forgetpassword",
+    "Admin_CreateNewPasswordPage": "/admin/createAdminPassword",
+    "Admin_ChangePasswordPage": "/admin/change-password",
+    "Admin_Dashboard": "/admin/dashboard",
+    "Admin_AboutUs": "/admin/about-us",
+    "Admin_Merchants": "/admin/merchants",
+    "Admin_QRCodeGenerator": "/admin/qrcodegenerator",
+
+    "AdminMerchants_FoodStall": "/admin/admin_merchant_foodstall",
+    "Admin_Customer": "/admin/customer",
+    "Admin_OrderHistory": "/admin/order-history",
+    "Admin_Subscription": "/admin/subscription",
+    "Admin_Notifications": "/admin/notifications",
+    "Admin_Roles": "/admin/roles",
+    "Admin_Approvals": "/admin/approvals",
+    "Admin_FAQ": "/admin/faq",
+    "Admin_TermsandCondition": "/admin/terms-and-condition",
+    "Admin_Grievance": "/admin/grievance",
+    "Admin_Inbox": "/admin/inbox",
+    "Admin_Merchant_Requests": "/admin/merchant-request",
+    "Admin_Inventory": "/admin/inventory"
+  },
+  "customerurl": {
+    "CustomerHome": "/customer/home",
+    "Customer_ScanQR": "/customer/scanqr",
+    "AboutUs": "/customer/about-us",
+    "Customer_FAQ": "/customer/faq",
+    "HowSiteWorks": "/customer/how-site-works",
+    "Customer_Account": "/customer/login",
+    "Customer_Account_Mobile": "/customer/account-mobile-no",
+    "Customer_Account_OTP": "/customer/otp",
+    "Customer_MyAccount": "/customer/my-account",
+    "Customer_OrderDetails": "/customer/orders",
+    "Customer_FeedbackReview": "/customer/feedback",
+    "Customer_Report": "/customer/report",
+    "TermsandCondition": "/customer/terms-and-condition",
+    "Customer_ContactUs": "/customer/contact-us",
+    "Customer_Menu": "/customer/menu",
+    "Customer_Cart": "/customer/cart",
+    "ShareApp": "/customer/share-app"
+  },
+  "common": {
+    "PasswordSucessPage": "/password-success",
+    "AdminPasswordSucessPage": "/admin-password-success",
+    "SignUpSucessMessagePage": "/signupsuccess",
+    "SuccessMessage": "/success",
+    "DevPage": "/home"
+  },
+  "endpoint": {
+    "comment": "Replace the url to corresponding environment url.",
+    "url_dev": "https://trydemoo.com/tf",
+    "url-local": "http://localhost/tf",
+    "url": "https://api.tap4food.com/tf"
+  },
+  "keys": {
+    "rupee": "₹",
+    "taxpercentage": 0.05
+  }
+}

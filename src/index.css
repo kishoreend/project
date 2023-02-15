@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #223554;
+  font-size: 15px;
+}
+
+code {
+  font-family: "Barlow", sans-serif;
+}
+.text-small {
+  font-size: 13px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #223554;
+}
+.dropdown-menu {
+  padding: 0px !important;
+  font-size: small !important;
+  min-width: auto;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none !important;
+}

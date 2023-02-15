@@ -1,0 +1,14 @@
+.message-input {
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .add-notification-button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 10px;
+  }

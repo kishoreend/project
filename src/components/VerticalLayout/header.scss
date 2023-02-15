@@ -1,0 +1,219 @@
+.headerlabelbox {
+  border: #dddddd solid 1px;
+  border-radius: 25px;
+  margin-left: 5px;
+  margin: auto !important;
+  padding: 5px 5px 5px 5px;
+  vertical-align: middle !important;
+}
+.headerlabelbox-profile-image {
+  border: #dddddd91 solid 1px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+}
+.headerlabelbox-profile {
+  //border: #dddddd solid 1px;
+  // border-radius: 50%;
+  margin-left: 5px;
+  vertical-align: middle !important;
+}
+.t4h-color-green {
+  color: green !important;
+  font-weight: bold;
+}
+.t4h-color-gray {
+  background-color: #e8ebef;
+}
+.t4h-color-red {
+  color: #d4484c !important;
+  font-weight: bold;
+}
+.t4ftitle {
+  color: #223554;
+  font-size: medium;
+  font-weight: 900 !important;
+  padding: 5px 2px 6px 2px;
+}
+.topheader {
+  position: relative;
+  //margin-left: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: small !important;
+  background-color: white;
+  margin-bottom: 0.5rem;
+  //overflow-x: scroll !important;
+}
+#header {
+  position: absolute;
+  // width: 230px;
+}
+#header .pro-sidebar {
+  top: 0;
+  bottom: 0;
+  position: fixed;
+}
+.logotext {
+  cursor: pointer;
+}
+
+#header .pro-sidebar {
+  width: none;
+}
+#header .pro-sidebar.collapsed {
+  width: 80px;
+  min-width: 80px;
+}
+#header .pro-sidebar-inner {
+  background-color: #223554 !important;
+}
+.adminsidebar_bg {
+  background: url(../../assets/icons/adminsidebarbg.png) bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout {
+  overflow-y: hidden;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout .logotext p {
+  font-size: 20px;
+  padding: 0 20px;
+  color: white;
+  font-weight: bold;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout ul {
+  padding: 0 0px;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+  color: white;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+  background-color: none;
+  color: rgb(255, 255, 255);
+}
+#header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
+  color: white;
+}
+#header .pro-sidebar-inner .pro-sidebar-layout .active {
+  background-color: #132441;
+  border-left: #d4484c solid 8px;
+}
+
+#header .logo {
+  padding: 20px;
+  cursor: pointer;
+}
+.pro-menu {
+  padding-top: 0px !important;
+}
+.pro-inner-item {
+  padding: 2px 35px 2px 20px !important;
+}
+.pro-item-content {
+  font-size: 14px !important;
+}
+@media only screen and (max-width: 720px) {
+  html {
+    overflow: hidden;
+  }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 38px;
+  height: 19px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 11px;
+  width: 11px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #00c200;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #6b6b6b;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem !important;
+}
+.btn {
+  padding: 0px !important;
+  vertical-align: revert !important;
+  color: #212529;
+}
+
+.display-none-mobile {
+  display: none;
+}
+.headerlabelbox-profile {
+  margin-left: 0px;
+}
+@media (min-width: 576px) {
+  .display-none-mobile {
+    display: inline-block;
+  }
+  .headerlabelbox-profile {
+    margin-left: 5px !important;
+  }
+}
+@media (max-width: 576px) {
+  .headerlabelbox {
+    border: none !important;
+  }
+}
+
+.pad-right-10 {
+  padding-right: 10px !important;
+}
+
+.profile-icon {
+  padding-top: 0.65rem !important;
+}
